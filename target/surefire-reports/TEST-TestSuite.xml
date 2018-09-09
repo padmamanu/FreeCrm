@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="2" name="TestSuite" time="10.15" errors="0" skipped="1">
+  <properties>
+    <property name="DISPLAY" value=":0"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="CLUTTER_IM_MODULE" value="xim"/>
+    <property name="java.home" value="/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre"/>
+    <property name="XDG_GREETER_DATA_DIR" value="/var/lib/lightdm-data/bhavya"/>
+    <property name="LOGNAME" value="bhavya"/>
+    <property name="VTE_VERSION" value="4205"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PWD" value="/home/bhavya/Downloads/softwareDownload/apache-tomcat-6.0.45/bin"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="UNITY_HAS_3D_SUPPORT" value="true"/>
+    <property name="GDMSESSION" value="ubuntu"/>
+    <property name="java.endorsed.dirs" value="/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/lib/endorsed"/>
+    <property name="XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="GPG_AGENT_INFO" value="/home/bhavya/.gnupg/S.gpg-agent:0:1"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="JOB_NAME" value="FreeCRMFrame"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop"/>
+    <property name="user.name" value="bhavya"/>
+    <property name="ORACLE_BASE" value="/u01/app/oracle"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/user/1000"/>
+    <property name="UPSTART_JOB" value="unity7"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="GNOME_KEYRING_CONTROL" value=""/>
+    <property name="XDG_SESSION_DESKTOP" value="ubuntu"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="path.separator" value=":"/>
+    <property name="WINDOWID" value="58725429"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMFrame-2"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="GTK_MODULES" value="gail:atk-bridge:unity-gtk-module"/>
+    <property name="MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="PATH" value="/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/bin:/u01/app/oracle/product/11.2.0/xe/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"/>
+    <property name="QT_ACCESSIBILITY" value="1"/>
+    <property name="DESKTOP_SESSION" value="ubuntu"/>
+    <property name="NLS_LANG" value="AMERICAN_AMERICA.AL32UTF8"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main /home/bhavya//Downloads/softwareDownload/apache-maven-3.3.9 /home/bhavya/Downloads/softwareDownload/apache-tomcat-6.0.45/webapps/jenkins/WEB-INF/lib/remoting-2.60.jar /home/bhavya/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven32-interceptor-1.7.jar /home/bhavya/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.7.jar 16813"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3421faee13437f6a"/>
+    <property name="SESSIONTYPE" value="gnome-session"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="XDG_SESSION_TYPE" value="x11"/>
+    <property name="XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session1"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="
+"/>
+    <property name="GTK2_MODULES" value="overlay-scrollbar"/>
+    <property name="BUILD_URL" value="http://localhost:8080/jenkins/job/FreeCRMFrame/2/"/>
+    <property name="SHLVL" value="1"/>
+    <property name="M2_HOME" value="/home/bhavya//Downloads/softwareDownload/apache-maven-3.3.9"/>
+    <property name="USER" value="bhavya"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="UPSTART_EVENTS" value="xsession started"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3421faee13437f6a"/>
+    <property name="UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/19773"/>
+    <property name="MAVEN_HOME" value="/home/bhavya//Downloads/softwareDownload/apache-maven-3.3.9"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="SESSION_MANAGER" value="local/bhavya-110-a04:@/tmp/.ICE-unix/20039,unix/bhavya-110-a04:/tmp/.ICE-unix/20039"/>
+    <property name="DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path"/>
+    <property name="maven3.interceptor.common" value="/home/bhavya/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.7.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated"/>
+    <property name="CATALINA_OPTS" value=" -Xms512m -Xmx512m -XX:MaxPermSize=256m"/>
+    <property name="XAUTHORITY" value="/home/bhavya/.Xauthority"/>
+    <property name="LESSCLOSE" value="/usr/bin/lesspipe %s %s"/>
+    <property name="XDG_MENU_PREFIX" value="gnome-"/>
+    <property name="XDG_CURRENT_DESKTOP" value="Unity"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="maven3.interceptor" value="/home/bhavya/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven32-interceptor-1.7.jar"/>
+    <property name="java.library.path" value="/u01/app/oracle/product/11.2.0/xe/lib::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="QT_IM_MODULE" value="ibus"/>
+    <property name="POM_GROUPID" value="FreeCRMTestAutomation"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMTest"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-AvHMKqDEhS"/>
+    <property name="JOB_URL" value="http://localhost:8080/jenkins/job/FreeCRMFrame/"/>
+    <property name="UPSTART_INSTANCE" value=""/>
+    <property name="JENKINS_HOME" value="/home/bhavya/.jenkins"/>
+    <property name="COMPIZ_CONFIG_PROFILE" value="ubuntu"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.boot.library.path" value="/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/lib/amd64"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="GTK_IM_MODULE" value="ibus"/>
+    <property name="HUDSON_HOME" value="/home/bhavya/.jenkins"/>
+    <property name="PATH+MAVEN" value="/home/bhavya//Downloads/softwareDownload/apache-maven-3.3.9/bin"/>
+    <property name="OLDPWD" value="/home/bhavya/Downloads/softwareDownload/apache-tomcat-6.0.45"/>
+    <property name="INSTANCE" value=""/>
+    <property name="QT_QPA_PLATFORMTHEME" value="appmenu-qt5"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="SESSION" value="ubuntu"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.ext.dirs" value="/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="os.version" value="4.4.0-128-generic"/>
+    <property name="user.home" value="/home/bhavya"/>
+    <property name="_" value="./startup.sh"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="JOB" value="unity-settings-daemon"/>
+    <property name="IM_CONFIG_PHASE" value="1"/>
+    <property name="user.dir" value="/home/bhavya/workspace/FreeCRMTest"/>
+    <property name="GDM_LANG" value="en_US"/>
+    <property name="XDG_VTNR" value="7"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="UNITY_DEFAULT_PROFILE" value="unity"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="ORACLE_HOME" value="/u01/app/oracle/product/11.2.0/xe"/>
+    <property name="java.class.path" value="/home/bhavya/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven32-agent-1.7.jar:/home/bhavya/Downloads/softwareDownload/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar:/home/bhavya/Downloads/softwareDownload/apache-maven-3.3.9/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="XDG_SEAT" value="seat0"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="/home/bhavya/.jenkins/jobs/FreeCRMFrame/workspace"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="GNOME_KEYRING_PID" value=""/>
+    <property name="LESSOPEN" value="| /usr/bin/lesspipe %s"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property name="LANGUAGE" value="en_US"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="XDG_SESSION_ID" value="c5"/>
+    <property name="sun.boot.class.path" value="/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/lib/resources.jar:/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/lib/rt.jar:/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/lib/sunrsasign.jar:/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/lib/jsse.jar:/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/lib/jce.jar:/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/lib/charsets.jar:/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/lib/jfr.jar:/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/jre/classes"/>
+    <property name="QT4_IM_MODULE" value="xim"/>
+    <property name="LD_LIBRARY_PATH" value="/u01/app/oracle/product/11.2.0/xe/lib:"/>
+    <property name="PATH+JDK" value="/home/bhavya/Downloads/softwareDownload/jdk1.8.0_91/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="/home/bhavya/Downloads/softwareDownload/apache-maven-3.3.9"/>
+    <property name="ORACLE_SID" value="XE"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMFrame"/>
+    <property name="XMODIFIERS" value="@im=ibus"/>
+    <property name="HOME" value="/home/bhavya"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="QT_LINUX_ACCESSIBILITY_ALWAYS_ON" value="1"/>
+    <property name="SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh"/>
+    <property name="LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMTest"/>
+    <property name="COMPIZ_BIN_PATH" value="/usr/bin/"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="verifyContactboxisChecked" time="0.025">
+    <failure message="Given xpath expression &quot;//input[name=&apos;contact_id&apos; AND type=&apos;checkbox&apos;])&quot; is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;bhavya-110-a04&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-128-generic&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 25237, moz:profile: /tmp/rust_mozprofile.03mvLY..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-128-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 210d6000-9b10-44ba-99de-503392bf84f2
+*** Element info: {Using=xpath, value=//input[name=&apos;contact_id&apos; AND type=&apos;checkbox&apos;])}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: Given xpath expression &quot;//input[name=&apos;contact_id&apos; AND type=&apos;checkbox&apos;])&quot; is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;bhavya-110-a04&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-128-generic&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 25237, moz:profile: /tmp/rust_mozprofile.03mvLY..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-128-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 210d6000-9b10-44ba-99de-503392bf84f2
+*** Element info: {Using=xpath, value=//input[name=&apos;contact_id&apos; AND type=&apos;checkbox&apos;])}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at com.crm.qa.pages.ContactPage.clickOnCheckBox(ContactPage.java:29)
+	at com.crm.qa.testcases.ContactPageTest.verifyContactboxisChecked(ContactPageTest.java:42)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@33833882
+</system-out>
+    <system-err>1536391869138	geckodriver	INFO	geckodriver 0.21.0
+1536391869144	geckodriver	INFO	Listening on 127.0.0.1:4134
+1536391869359	mozrunner::runner	INFO	Running command: &quot;/usr/lib/firefox/firefox&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;/tmp/rust_mozprofile.03mvLY7VyAsG&quot;
+1536391872410	Marionette	INFO	Listening on port 27986
+1536391872475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536391872533	Marionette	DEBUG	[2147483649] Frame script loaded
+1536391872549	Marionette	DEBUG	[2147483649] Frame script registered
+Sep 08, 2018 12:31:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1536391872774	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536391875238	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536391878050	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.freecrm.com/index.html
+1536391883055	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.freecrm.com/index.html
+1536391886870	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.freecrm.com/index.html
+1536391886882	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1536391887438	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.freecrm.com/index.html
+1536391887462	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.freecrm.com/index.html
+1536391887469	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.freecrm.com/index.cfm?CFID=1655305&amp;CFTOKEN=40312044&amp;jsessionid=3e30f1514a11b1f0d2ab506d6c1635a16792
+1536391887499	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536391887500	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1536391887500	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1536391887500	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1536391887500	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1536391892574	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.freecrm.com/index.cfm?CFID=1655305&amp;CFTOKEN=40312044&amp;jsessionid=3e30f1514a11b1f0d2ab506d6c1635a16792
+1536391892654	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.freecrm.com/system/index.cfm
+1536391892919	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.freecrm.com/system/index.cfm
+1536391892920	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.freecrm.com/system/index.cfm
+1536391893167	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.freecrm.com/system/index.cfm?action=contact
+1536391893174	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1536391893175	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1536391893175	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1536391893175	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483679
+1536391893175	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1536391893176	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1536391893366	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.freecrm.com/system/index.cfm?action=contact
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="verifyContactboxtext" time="1.104">
+    <skipped/>
+    <system-err>1536391893403	Marionette	INFO	Stopped listening on port 27986
+[Parent 25237, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-2GyqsY/firefox-62.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitle" time="0.056"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageUserLableText" time="0.073">
+    <failure message="Home page user name label is not matching expected:&lt;[  ]User: padma p&gt; but was:&lt;[]User: padma p&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: Home page user name label is not matching expected:&lt;[  ]User: padma p&gt; but was:&lt;[]User: padma p&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at com.crm.qa.testcases.HomePageTest.verifyHomePageUserLableText(HomePageTest.java:46)
+</failure>
+    <system-out>  User: padma p=============
+</system-out>
+    <system-err>1536391912200	Marionette	INFO	Stopped listening on port 25050
+1536391913342	geckodriver	INFO	geckodriver 0.21.0
+1536391913348	geckodriver	INFO	Listening on 127.0.0.1:8764
+1536391913360	mozrunner::runner	INFO	Running command: &quot;/usr/lib/firefox/firefox&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;/tmp/rust_mozprofile.XNQ1HjB1wUyz&quot;
+1536391916496	Marionette	INFO	Listening on port 20149
+1536391916571	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536391916622	Marionette	DEBUG	[2147483649] Frame script loaded
+1536391916645	Marionette	DEBUG	[2147483649] Frame script registered
+Sep 08, 2018 12:31:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1536391916753	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1536391919215	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1536391921982	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.freecrm.com/index.html
+1536391922359	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.freecrm.com/index.html
+1536391926082	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.freecrm.com/index.html
+1536391926627	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.freecrm.com/index.html
+1536391926660	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.freecrm.com/index.html
+1536391926674	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.freecrm.com/index.cfm?CFID=1655308&amp;CFTOKEN=22641479&amp;jsessionid=3e304faac369eb9d0e1d1117f514155443f5
+1536391926716	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1536391926717	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1536391926717	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1536391926718	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1536391926718	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1536391930214	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.freecrm.com/index.cfm?CFID=1655308&amp;CFTOKEN=22641479&amp;jsessionid=3e304faac369eb9d0e1d1117f514155443f5
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="verifyloginbuttondisplay" time="0.078"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.012"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="verfiyCRMLogo" time="0.085"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="8.717"/>
+</testsuite>
