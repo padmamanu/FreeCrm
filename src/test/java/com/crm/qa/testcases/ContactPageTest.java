@@ -1,6 +1,12 @@
 package com.crm.qa.testcases;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -12,6 +18,7 @@ import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.util.TestUtil;
 
+import org.apache.commons.io.FileUtils;
 public class ContactPageTest extends TestBase {
 
 	HomePage homePage;
@@ -62,7 +69,21 @@ public class ContactPageTest extends TestBase {
 	}
 	
 	@AfterMethod
-	public void teardown(){
+	public void takeScreenshotAndteardown(ITestResult result){
+		
+		if(ITestResult.FAILURE==result. getStatus()){
+			
+			File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			
+			try {
+				FileUtils.copyFile(src,new File("/home/bhavya/Documents/Freecrm.png"));
+			} catch (IOException e) {
+				System.out.println("exception while taking screenshot"+ e.getMessage());
+				e.printStackTrace();
+			}
+		}
+		
+		
 		driver.quit();
 }
 }
